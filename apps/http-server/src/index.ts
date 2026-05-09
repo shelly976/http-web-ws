@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/',(req,res)=>{
     console.log('hello');
-    res.send('Lakhwinder singh');
+    res.send('Name:Lakhwinder singh');
 });
 
 app.post('/signup',async(req,res)=>{
